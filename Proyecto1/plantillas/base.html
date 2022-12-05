@@ -1,0 +1,25 @@
+<html>
+    <head>
+        <title>
+            {% block titel %}
+                
+            {% endblock %}
+        </title>
+    </head>
+    <body>
+        
+        <h1 style="background:brown ; color:white; text-align: center;">
+            Pildoras informaticas
+        </h1>
+        {% include "barra.html" %}
+        <h3>
+            Curso de programacion, informacion y diseño web
+        </h3>
+        
+        {% block content %}
+
+        {% endblock %}
+
+        <h4 style="background:brown ; color:white; text-align: center;">Gracias por su visita</h4>
+    </body>
+</html>
